@@ -51,9 +51,12 @@ const Register = () => {
   };
   return (
     <div className='h-screen flex flex-col justify-center m-auto'>
+      <h1 className='text-2xl font-bold text-center text-green-700 !important mt-3'>
+        Welcome to Treasure Valley
+      </h1>
       <div className='m-auto  w-[95%] md:w-[555px] bg-white p-3 md:p-12 rounded-md text-[#1E1E1E] '>
-        <h1 className='text-xl font-bold text-center text-green-700 mb-3'>
-          Welcome to Treasure Valley DataBase
+        <h1 className='text-xl font-bold text-center text-green-700 !important mb-3'>
+          DataBase
         </h1>
         <form onSubmit={handleRegister}>
           <div className='grid md:grid-cols-2 grid-cols-1 items-center my-6 gap-2 w-full'>
