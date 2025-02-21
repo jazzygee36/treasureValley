@@ -14,7 +14,7 @@ const SelectInput = ({
         {label}
       </h3>
       <select
-        className={`h-[52px] w-full border-1 border-[#E8ECEF] ${border} outline-none px-4 rounded-[2px]`}
+        className={`h-[52px] w-full border-solid border-1 border-[#E8ECEF] ${border} outline-none px-4 rounded-[2px]`}
         name={name}
         value={value}
         onChange={onChange}
